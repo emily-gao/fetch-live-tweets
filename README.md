@@ -14,6 +14,15 @@ This app requires that you have the [twitter](https://github.com/sferik/twitter)
 gem install twitter
 ```
 
+It also requires that you have the following Twitter credentials environment variables set. You can apply for the credentials [here](https://developer.twitter.com/en/apply-for-access).
+
+```
+TWITTER_CONSUMER_KEY
+TWITTER_CONSUMER_SECRET
+TWITTER_ACCESS_TOKEN
+TWITTER_ACCESS_TOKEN_SECRET
+```
+
 ## Usage
 
 ```ruby
